@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h1>Heading 1</h1>
+        <!--in this paragraph we have lots of lines of code but it is ignored by html-->
+        <p>
+            This paragraph
+            contains a lot of lines
+            but they are ignored.
+         </p>
+        <h2>Heading 2</h2>
+        <!--here we have used br(break tag) to seperat the lines-->
+        <p>
+            This paragraph<br>
+            contains a lot of lines<br>
+            and they are displayed.
+         </p>
+         <!--here we are using strong tag to indicate that a range of text has importance.-->
+         <p>
+            No matter how much the dog barks: <strong>don't feed him chocolate</strong>.
+         </p>
+         <!--here we are using <b> bold tag to bold the text-->
+         <p>
+            The primary colors are <b>red</b>, <b>yellow</b> and <b>blue</b>.
+         </p>
+        <h3>Heading 3</h3>
+        The three core technologies of the Internet are <b>HTML</b>, <b>CSS</b> and <b>Javascript</b>.
+        <!--emphasis tag to emphasis the text-->
+        <p>
+            Wake up <em>now</em>!
+         </p>
+        <h4>Heading 4</h4>
+        <!--italian text-->
+        <p>
+            The term <i>HTML</i> stands for HyperText Markup Language.
+         </p>
+         <!--emphasis versus italian tags-->
+         I <em>really</em> want ice cream.
+         My favourite book is <i>Dracula</i>.
+        <h5>Heading 5</h5>
+        <!--unordered list-->
+        <ul>
+            <li>Tea</li>
+            <li>Sugar</li>
+            <li>Milk</li>
+         </ul>
+         <!--ordered list-->
+         <ol>
+            <li>Rocky</li>
+            <li>Rocky II</li>
+            <li>Rocky III</li>
+         </ol>
+        <h6>Heading 6</h6>
+        <!--A <div> tag defines a content division in a HTML document. It acts as a generic container and has no effect on the content unless it is styled by CSS -->
+        <div>
+            <p>This is a paragraph inside a div</p>
+         </div>
+         <!--It can be nested inside other elements-->
+         <div>
+            <div>
+               <p>This is a paragraph inside a div that’s inside another div</p>
+            </div>
+         </div>
+
+         <!--As mentioned, the div has no impact on content unless it is styled by CSS. Let’s add a small CSS rule that styles all divs on the page.
+
+Don't worry about the meaning of the CSS just yet, you'll explore CSS further in a later lesson. In summary, you're applying a rule that adds a border and some visual spacing to the element.-->
+         <style>
+            div {
+               border: 1px solid black;
+               padding: 2px;
+            }
+         </style>
+         <div>
+            <div>
+               <p>This is a paragraph inside stylized divs</p>
+            </div>
+         </div>
+      </body>
+</html>

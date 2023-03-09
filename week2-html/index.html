@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Little lemon</title>
+    </head>
+    <body>
+        <h1>Our Menu</h1>
+        <h2>Falafel</h2>
+        <p>Chichpea, herbs and spices.</p>
+        <img src="falafel-1.jpg" width="240" height="135" alt="falafel">
+        <h2>Pasta Salad</h2>
+        <p>Lettuce, vegetables and mozzarella.</p>
+        <img src="Salad.jpg" width="240" height="135" alt="a pasta salad"><br>
+        <a href="Location.html">Our Location</a>
+        <!--inserting tables with style-->
+        <style>
+            table, th ,td{
+                border: 1px solid black;
+                border-collapse: collapse;
+            }
+        </style>
+        <table>
+            <tr>
+                <th>Dish</th>
+                <th>Price</th>
+            </tr>
+            <tr>
+                <th>Falafel</th>
+                <th>$10.00</th>
+            </tr>
+            <tr>
+                <th>Pasta Salad</th>
+                <th>15.00</th>
+            </tr>
+        </table>
+        <!--inserting forms -->
+        <form action="/registration" method="pos">
+        <label for="username">Usernam:</label><br>
+        <input type="text" name="username"/><br>
+
+        <label for="password">Password:</label><br>
+        <input type="password"/><br>
+        <input type="submit"/>
+
+
+
+        <br>
+        <br>
+        <br>
+        <input type="checkbox" name="dog" value="Dog"/>
+        <label for="dog">I own a dog</label>
+
+        <br>
+        <input type="checkbox" name="cat" value="Cat"/>
+        <label for="cat">I own a cat</label><br>
+
+        <input type="radio" name "right" value="Right"/>
+        <label for="right">I am right handed</label><br>
+        <input type="radio" name "left" value="left"/>
+        <label for="left">I am left handed</label><br>
+
+
+        <br>
+        <br>
+        this is number form.<br>
+        <input type="number" name="age"/>
+        <br>this is email form.<br>
+        <input type="email" name="email"/>
+        <br> this is file form.<br>
+        <input type="file" name="file"/>
+
+        <br>
+        <br>
+        <!--text area form-->
+        <input type="text" name="username"/><br>
+        <textarea name = "Multiline" rows="5"></textarea>
+
+        <!--drop down list-->
+        <select name="food">
+            <option value="chocolate">Chocolate</option>
+            <option value="ice cream">Ice cream</option>
+            <option value="candy">Candy</option>
+        </select>
+
+
+
+        </form>
+    </body>
+
+</html>
